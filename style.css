@@ -1,4 +1,11 @@
+:root{
+  --secondary-color: #81170c;
+}
+
 body{
+  background-color: #de8f23;
+}
+
 header{
   text-align: center;
 }
@@ -8,13 +15,19 @@ header{
   flex-direction: row;
   width: 90%;
   margin: auto;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .column{
   flex: 50%;
   padding: 2em;
+  border: 2px solid var(--secondary-color);
 }
 
 .internalbox{
   margin: 2em;
+}
+
+h3{
+  color: var(--secondary-color);
 }
