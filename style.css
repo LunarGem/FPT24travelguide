@@ -10,6 +10,11 @@ header{
   text-align: center;
 }
 
+a{
+  text-decoration: underline;
+  color: currentcolor;
+}
+
 .content{
   display: flex;
   flex-direction: row;
