@@ -31,3 +31,13 @@ header{
 h3{
   color: var(--secondary-color);
 }
+
+/* TODO: responsive design */
+@media (max-width: 800px){
+  .column{
+    flex: 100%;
+  }
+  .content{
+    flex-direction: column;
+  }
+}
